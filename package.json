@@ -1,0 +1,11 @@
+{
+  "name": "vscode-typescript-debugging",
+  "devDependencies": {
+    "typescript": "^4.9.4"
+  },
+  "scripts": {
+    "start": "node build/first.js",
+    "prestart": "npm run build",
+    "build": "tsc"
+  }
+}
